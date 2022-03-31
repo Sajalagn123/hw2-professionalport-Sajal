@@ -11,5 +11,7 @@ I added a heading titled projects above my first project and had it underlined. 
 
 I fixed the positioning of the header and the footer on the page as well as the nav elements.
 
+I centered the content on the page along with adding an image of the project. I also centered the text on the image and increased the font weight.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
