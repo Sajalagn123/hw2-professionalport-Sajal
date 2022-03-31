@@ -51,17 +51,50 @@ h2 u {
     text-align: center;
     height: 413px;
     overflow: hidden;
+    margin-top: 0;
+  }
+
+  img.banner {
+    width: 100%;
+    margin-top: -400px;
   }
 
   .caption {
-    left: 0;
     position: absolute;
-    text-align: center;
-    top: 30px;
-    width: 100%
+    left: 50%;
     transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 body {
     margin:0px;
+}
+
+.screenshot-content {
+    width: 62%;
+    margin: auto; 
+    padding-left: 119px;
+}
+
+.content {   
+    display: flex;
+   
+}
+
+.header {
+    width:50%;  
+      
+
+}
+
+.screenshot {
+    width: 195px;
+    margin-left: 50px;
+}
+
+section img {
+    width:50%  
 }
