@@ -7,5 +7,7 @@ I added some HTML elements including an image, some content in the body, a foote
 
 I changed the font using CSS to Cambria. I also added a caption under the image.
 
+I added a heading titled projects above my first project and had it underlined. However, there is trouble with the image caption.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
