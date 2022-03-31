@@ -17,4 +17,13 @@ header {
 footer {
     background-color: red;
     text-align: center;
+    padding: 30px;
+}
+
+.bold {
+    font-style: 900; 
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
