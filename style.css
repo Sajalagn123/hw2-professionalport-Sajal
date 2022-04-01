@@ -8,8 +8,11 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-top:auto;
-    margin-bottom:auto;
-    
+    margin-bottom:auto;    
+}
+
+nav a:hover {
+    color: green;
 }
 
 header nav a {
@@ -71,6 +74,8 @@ h2 u {
 
 body {
     margin:0px;
+    background-color: black;
+    color: white;
 }
 
 .screenshot-content {
@@ -97,4 +102,10 @@ body {
 
 section img {
     width:50%  
+}
+
+section ul li {
+display: inline;
+text-decoration: none;
+color: white;
 }
