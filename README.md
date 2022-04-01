@@ -15,5 +15,7 @@ I centered the content on the page along with adding an image of the project. I 
 
 I added a black background and made the color of the content white. I also the nav elements turn green when they are hovered over.
 
+Added links to the github repo and the website for the first and only project listed right now.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
