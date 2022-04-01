@@ -13,5 +13,7 @@ I fixed the positioning of the header and the footer on the page as well as the 
 
 I centered the content on the page along with adding an image of the project. I also centered the text on the image and increased the font weight.
 
+I added a black background and made the color of the content white. I also the nav elements turn green when they are hovered over.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
