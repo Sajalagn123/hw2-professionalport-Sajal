@@ -90,9 +90,7 @@ body {
 }
 
 .header {
-    width:50%;  
-      
-
+    width:50%;   
 }
 
 .screenshot {
@@ -104,7 +102,7 @@ section img {
     width:50%  
 }
 
-section ul li {
+section p a {
 display: inline;
 text-decoration: none;
 color: white;
