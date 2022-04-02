@@ -59,7 +59,11 @@ h2 u {
 
   img.banner {
     width: 100%;
-    margin-top: -400px;
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100%;
   }
 
   .caption {
@@ -86,7 +90,7 @@ body {
 
 .content {   
     display: flex;
-   
+    flex-wrap: wrap;
 }
 
 .header {
@@ -107,3 +111,27 @@ display: inline;
 text-decoration: none;
 color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    footer {
+        position: static;
+    }
+    .screenshot-content {
+        padding-left: 0;
+    }
+    .header {
+        width:auto;
+    }
+    .screenshot-frame {        
+        margin: 20px auto;
+    }
+    .screenshot {
+        margin: 0 auto;
+    }
+  }  
+
+@media only screen and (max-width: 640px) {
+    .caption {
+        font-size: 20px;
+    }
+}  
