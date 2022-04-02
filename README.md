@@ -17,5 +17,7 @@ I added a black background and made the color of the content white. I also the n
 
 Added links to the github repo and the website for the first and only project listed right now.
 
+Made the banner image a flex container and made it so taht the footer stays at the bottom of the screen when the window is resized.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
