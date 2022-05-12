@@ -30,7 +30,7 @@ footer {
     text-align: center;
     padding: 30px 0;
     bottom: 0;
-    position: absolute;
+    position: static;
     width: 100%;
 }
 
@@ -102,6 +102,11 @@ body {
     margin-left: 50px;
 }
 
+.screenshot2 {
+    width: 195px;
+    margin-left: 50px;
+}
+
 section img {
     width:50%  
 }
@@ -110,6 +115,12 @@ section p a {
 display: inline;
 text-decoration: none;
 color: white;
+}
+
+img.banner {
+	position: absolute;
+	bottom: 0;	
+	left: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -136,13 +147,30 @@ color: white;
     }
 } 
 
-img.banner {
-	position: absolute;
-	bottom: 0;	
-	left: 0;
-}
 @media only screen and (max-width:1024px) {
 	figure {
 		height:320px !important;
 	}
 }
+
+@media only screen and (max-width: 1514px) {
+    footer {
+        position: static;
+    }
+    .screenshot-content {
+        padding-left: 0;
+    }
+    .header {
+        width:auto;
+    }
+    .screenshot-frame {        
+        margin: 20px auto;
+    }
+    .screenshot {
+        margin: 0 auto;
+    }
+    .screenshot2{
+        margin-left: 5px;
+    }
+  }  
+
