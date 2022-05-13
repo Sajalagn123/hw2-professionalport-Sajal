@@ -21,5 +21,7 @@ Made the banner image a flex container and made it so taht the footer stays at t
 
 Made some more adjustments to the image.
 
+Added an about me section with a profile picture of myself along with a short bio. I also added a contact section at the bottom of the page with my email and phone number. In addition, I added links at the top of the page, which when clicked, smoothly scroll down to corresponding sections of the page.
+
 ## Instalation
 To install my project, I created a repository for it on Github. After that I cloned the repository onto my desktop. I then copied the folders from my class repository and pasted them into my folder. From there, I opened the assignments into a serperate folder.
