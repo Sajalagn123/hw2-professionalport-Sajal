@@ -82,7 +82,7 @@ body {
     color: white;
 }
 
-.screenshot-content {
+.project-content {
     width: 62%;
     margin: auto; 
     padding-left: 119px;
@@ -123,11 +123,41 @@ img.banner {
 	left: 0;
 }
 
+ul {
+    font-size: large;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.aboutme {
+    margin-left: 4px;
+}
+
+.screenshot3 {
+    width: 195px;
+    margin-left: -235px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bio p{
+    font-size: medium;
+}
+
 @media only screen and (max-width: 768px) {
     footer {
         position: static;
     }
-    .screenshot-content {
+    .project-content {
         padding-left: 0;
     }
     .header {
@@ -138,6 +168,18 @@ img.banner {
     }
     .screenshot {
         margin: 0 auto;
+    }
+
+    .screenshot3 {
+        margin-left: 0 auto; 
+    }
+
+    .personal {
+        padding-left: 0;  
+    }
+
+    .aboutme {
+      width: auto;
     }
   }  
 
@@ -157,11 +199,11 @@ img.banner {
     footer {
         position: static;
     }
-    .screenshot-content {
+    .project-content {
         padding-left: 0;
     }
     .header {
-        width:auto;
+        width: auto;
     }
     .screenshot-frame {        
         margin: 20px auto;
@@ -169,8 +211,32 @@ img.banner {
     .screenshot {
         margin: 0 auto;
     }
-    .screenshot2{
+    .screenshot2 {
         margin-left: 5px;
     }
+
+    .screenshot3 {
+        margin-left: 5px; 
+    }
+
+    .personal {
+        padding-left: 0;  
+    }
+
+    .aboutme {
+        width: auto;
+    }
   }  
+
+  @media only screen and (max-width: 1520px) {
+      .content {
+        margin-right: auto;
+      }
+  }
+
+  @media only screen and (max-width: 810px){
+      .content {
+          margin: auto
+      }
+  }
 
